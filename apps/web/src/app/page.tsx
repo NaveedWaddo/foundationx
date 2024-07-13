@@ -1,5 +1,6 @@
-import {add} from "@foundation/sample-lib"
+import { add } from '@foundation/sample-lib'
 
 export default function Home() {
-  return <main>Hello World {add(3,4)}</main>
+  const a = 9
+  return <main>Hello World {add(3, 4)}</main>
 }
