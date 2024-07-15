@@ -1,6 +1,13 @@
+import { getAuth } from '@foundation/network/src/auth/authOptions'
 import { add } from '@foundation/sample-lib'
+import { HomePage } from '@foundation/ui/src/components/templates/HomePage'
 
-export default function Home() {
-  const a = 9
-  return <main>Hello World {add(3, 4)}</main>
+export default async function Home() {
+  const user = await getAuth()
+  console.log('user ', user)
+  return (
+    <main>
+      <HomePage />
+    </main>
+  )
 }
