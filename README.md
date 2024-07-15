@@ -29,7 +29,7 @@ Welcome to the Full-Stack Boilerplate Project! This project is a comprehensive t
 1. **Clone the Repository**
 
    ```bash
-   git clone [repository-url]
+   git clone <repository-url>
    ```
 
 2. **Install the dependencies**
